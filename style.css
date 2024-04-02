@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left, #12dfdf, #e253ec);
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 40px; 
+    width:40px;
+    margin: 0 0 0 30px;
+    background: none;
+    border: none;
+    background-color: white;
+    mix-blend-mode: multiply;
+}
+
+#heading_gif{
+   color: rgba(6, 6, 6, 0.874);
+   font-size: 40px;
+   font-family: Helvetica, sans-serif;
+   font-weight: 700;
+   margin-top: 14vh;
+   display: flex;
+   justify-content: center;
+}
+
+#outer{
+    height: 50vh;
+    width: 30vw;
+    border-radius: 1em;
+    position: absolute;
+    margin-top: 25vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.5);
+    border: 1px solid rgba(0,0,0, 0.4);
+    transition: 1s;
+}
+
+input{
+    height: 5vh;
+    width: 19vw;
+    margin-top: 1vh;
+    margin-left: 3.3vw;
+    font-size: medium;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 1em;
+}
+
+input:focus{
+    border-bottom:1px solid #0d5eb2;
+}
+
+#add{
+    height: 5vh;
+    width: 4vw;
+    border: none;
+    border-radius: 1em;
+    background-color: #4006efd5;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.task{
+    height: 6vh;
+    width: 26vw;
+    /* background-color: #692fd8eb; */
+     background: linear-gradient(to bottom right, #1281dc 0%, #b82ad4ab 80%);
+    display: flex;
+    margin-top: 3px;
+    margin-left: 1.8vw; 
+    font-size: medium;
+    font-weight: 300;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check{
+    height: 1.5em;
+    width: 1.5em;
+    /* margin: 5px 60px 5px 5px; */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.name{
+   margin: 5px 0px 0px 10px; 
+   font-size: large;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+}
+
+.task button{
+    height: 30px;
+    width: 30px;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit{ 
+    color: #0084ff;
+    /* margin: 5px 30px 5px 260px;   */
+}
+
+.todelete{
+    /* margin: 5px 10px 5px 0px; */
+    color: #df0d0dd9;  
+}
+
+#edit_delete{
+    /*background-color: #cc00ff; */
+    width: 6vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
