@@ -19,12 +19,7 @@ button.addEventListener('click',(e)=>{
            <div class="todelete"><button class="todelete"><i class="fa-solid fa-trash fa-xl"></i></button></div>
         </div>
         </div>` ; 
-        // if(outer.childElementCount<=10){
-        //     outer.style.height = `50vh`;
-        // }
-        // else{
-        //     outer.style.height = `auto`;
-        // }
+    
         outer.append(newtask);      
         input.value = '';
         })()                                //IIFE
@@ -39,12 +34,6 @@ button.addEventListener('click',(e)=>{
             b.addEventListener('click', (e)=>{
                 //console.log(e.target.parentElement.parentElement);
                 e.target.parentElement.parentElement.parentElement.parentElement.parentElement.removeChild(e.target.parentElement.parentElement.parentElement.parentElement);
-                // if(outer.childElementCount<=10){
-                //     outer.style.height = `50vh`;
-                // }
-                // else{
-                //     outer.style.height = `auto`;
-                // }
             })
         })
         check.forEach((b)=>{
@@ -56,12 +45,6 @@ button.addEventListener('click',(e)=>{
         })
         edit.forEach((b)=>{
             b.addEventListener('click', (e)=>{
-                // if(outer.childElementCount<=10){
-                //     outer.style.height = `50vh`;
-                // }
-                // else{
-                //     outer.style.height = `auto`;
-                // }
                 input.value = String(e.target.parentElement.parentElement.parentElement.parentElement.children[0].innerText);
                 //console.log(e.target.parentElement.parentElement.parentElement);
                 e.target.parentElement.parentElement.parentElement.parentElement.parentElement.removeChild(e.target.parentElement.parentElement.parentElement.parentElement);
