@@ -74,8 +74,7 @@ input:focus{
 .task{
     height: 6vh;
     width: 26vw;
-    /* background-color: #692fd8eb; */
-     background: linear-gradient(to bottom right, #1281dc 0%, #b82ad4ab 80%);
+    background-color: #623ada;
     display: flex;
     margin-top: 3px;
     margin-left: 1.8vw; 
@@ -116,16 +115,13 @@ input:focus{
 }
 .edit{ 
     color: #0084ff;
-    /* margin: 5px 30px 5px 260px;   */
 }
 
 .todelete{
-    /* margin: 5px 10px 5px 0px; */
     color: #df0d0dd9;  
 }
 
 #edit_delete{
-    /*background-color: #cc00ff; */
     width: 6vw;
     height: 6vh;
     display: flex;
