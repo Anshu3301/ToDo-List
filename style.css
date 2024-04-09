@@ -74,7 +74,8 @@ input:focus{
 .task{
     height: 6vh;
     width: 26vw;
-    background-color: #623ada;
+    background-color: #5e0aa0;
+    color: white;
     display: flex;
     margin-top: 3px;
     margin-left: 1.8vw; 
