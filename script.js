@@ -10,7 +10,7 @@ let check,names,edit,todelete,create;
 
 button.addEventListener('click',(e)=>{
     if(input.value != ''){
-        (create = () =>{
+        (create = () =>{ 
         let newtask = document.createElement('div')
         newtask.innerHTML = `<div class='task'>
         <span class="name">${input.value}</span>
